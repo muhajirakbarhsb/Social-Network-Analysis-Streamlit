@@ -1,0 +1,12 @@
+services:
+  streamlit:
+    build: .
+    image: streamlit_twitter
+    ports:
+      - "8543:8543"
+    volumes:
+      - ./app:/streamlit/app
+    environment:
+      port: "8543"
+      topic: "sumbar"
+      schedule: "30 * * * *"
