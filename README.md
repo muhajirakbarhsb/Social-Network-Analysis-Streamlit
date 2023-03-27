@@ -3,6 +3,9 @@
 
 This is a Python script that performs social network analysis on Twitter data using the NetworkX and Pyvis libraries. The script uses snscrape to crawl tweets, and is limited to the latest 1500 tweets. The keyword for crawling and the schdule time can be customized in the `docker-compose.yml` file.
 
+
+
+![Dashboard example](https://github.com/muhajirakbarhsb/Social-Network-Analysis-Streamlit/blob/main/screenshot.png)
 ## Requirements
 
 - Docker
